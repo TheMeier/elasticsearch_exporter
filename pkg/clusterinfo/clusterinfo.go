@@ -238,8 +238,6 @@ func (r *Retriever) Run(ctx context.Context) error {
 		// context cancelled
 		return nil
 	}
-
-	return nil
 }
 
 func (r *Retriever) fetchAndDecodeClusterInfo() (*Response, error) {
